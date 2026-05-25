@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NGS - SERVICE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo/logo.jpeg" type="image/jpeg">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="preloader-content">
+    <div class="preloader-logo-container">
+      <img src="logo/logo.jpeg" alt="NGS Soft Works Logo" class="preloader-logo">
+      <div class="preloader-ring"></div>
+    </div>
+    <div class="preloader-progress-bar">
+      <div class="preloader-progress"></div>
+    </div>
+    <div class="preloader-text">NGS SOFT WORKS</div>
+  </div>
+</div>
+
+
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#">
+      <img src="logo/logo.jpeg" alt="NGS Soft Works Logo" class="brand-img-logo" onerror="this.style.display='none'">
+      <div class="brand-text">
+        <span class="brand-name">NGS SOFT WORKS</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#work-process">Process</a></li>
+      <li><a href="https://wa.me/917904509269" target="_blank" class="nav-btn">Start Project</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" class="mm-link">About</a>
+  <a href="#solutions" class="mm-link">Solutions</a>
+  <a href="#team" class="mm-link">Team</a>
+  <a href="#work-process" class="mm-link">Process</a>
+  <a href="https://wa.me/917904509269" target="_blank" class="mm-link highlight">Start Project</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-slider">
+    <div class="hero-slide active" style="background-image: url('assets/code.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/c&s.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/design.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/construction image.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/sketch.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/edit.png')"></div>
+    <div class="hero-slide" style="background-image: url('assets/logo.png')"></div>
+    <div class="hero-slide hero-slide-logo" style="background-image: url('logo/logo.jpeg')"></div>
+    <div class="hero-slider-overlay"></div>
+  </div>
+
+  <div class="hero-glow hg-1"></div>
+  <div class="hero-glow hg-2"></div>
+  <div class="hero-glow hg-3"></div>
+  <div class="hero-content">
+    <div class="hero-badge" data-reveal>
+      <span class="badge-dot"></span> Technology & Engineering Solutions
+    </div>
+    <h1 class="hero-h1" data-reveal>SOFTWARE <span class="text-grad grad-blue">SOLUTIONS</span></h1>
+    <p class="hero-p" style="max-width: 1100px; margin: 0 auto 2rem; font-size: 1.1rem; font-weight: 300; color: var(--text-muted);" data-reveal>Modern websites, apps, automation tools, and smart digital services for your needs.</p>
+  </div>
+</section>
+
+<!-- ABOUT INTRO -->
+<section id="about" class="section">
+  <div class="container about-container"> 
+    <div class="about-text" data-reveal>
+      <div class="sec-tag">Who We Are</div>
+      <h2 class="sec-h">Building Modern Digital & <span class="text-grad">Engineering Solutions</span></h2>
+      
+      <div class="vision-mission" style="margin-bottom: 2rem;">
+        <h3 style="font-family: var(--font-heading); color: var(--primary); font-size: 1.4rem; margin-bottom: 0.5rem; letter-spacing: 1px;">OUR VISION</h3>
+        <p class="sec-p" style="margin-bottom: 1.8rem; line-height: 1.6;">To become a trusted technology and engineering startup that helps businesses, startups, and students grow with modern software, smart engineering solutions, and creative digital services.</p>
+        
+        <h3 style="font-family: var(--font-heading); color: var(--primary); font-size: 1.4rem; margin-bottom: 0.5rem; letter-spacing: 1px;">OUR MISSION</h3>
+        <ul class="mission-list sec-p" style="list-style: none; padding-left: 0; line-height: 1.7;">
+          <li style="margin-bottom: 0.6rem;"><span style="color: var(--primary); margin-right: 8px;">✦</span> Provide reliable software and digital solutions for modern businesses.</li>
+          <li style="margin-bottom: 0.6rem;"><span style="color: var(--primary); margin-right: 8px;">✦</span> Create BIM models, CAD drawings, and engineering designs with professional tools.</li>
+          <li style="margin-bottom: 0.6rem;"><span style="color: var(--primary); margin-right: 8px;">✦</span> Build smart automation and AI solutions to improve work and save time.</li>
+          <li style="margin-bottom: 0.6rem;"><span style="color: var(--primary); margin-right: 8px;">✦</span> Support startups and professionals with branding, design, and digital services.</li>
+          <li style="margin-bottom: 0.6rem;"><span style="color: var(--primary); margin-right: 8px;">✦</span> Deliver quality work with innovation and customer satisfaction.</li>
+        </ul>
+      </div>
+      
+      <div class="stats-grid" style="margin-top: 2rem;">
+        <div class="stat-box">
+          <h3 data-count="250">0</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="200">0</h3>
+          <p>Student Projects Delivered</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="100">0</h3>
+          <p>Repeat Clients</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="230">0</h3>
+          <p>Positive Reviews</p>
+        </div>
+        <div class="stat-box">
+          <h3 data-count="50">0</h3>
+          <p>Ongoing Projects</p>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual" data-reveal>
+      <div class="glass-panel main-panel">
+        <div class="panel-header">
+          <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+          <div class="p-title">NGS_System_Overview.exe</div>
+        </div>
+        <div class="panel-body" id="terminal-body" style="font-family: var(--font-mono); font-size: 0.8rem; line-height: 1.6; min-height: 220px; display: flex; flex-direction: column; justify-content: space-between;">
+          <div id="terminal-content">
+            <div class="sys-line"><span>[SYSTEM]</span> Initializing digital transformation stack...</div>
+            <div class="sys-line"><span>[SYSTEM]</span> Spawning AI Agent execution threads... OK</div>
+            <div class="sys-line"><span>[SYSTEM]</span> Rendering high-fidelity CAD & BIM schedules... OK</div>
+            <div class="sys-line highlight"><span>[READY]</span> Multi-Disciplinary Core Engine Online.</div>
+          </div>
+          
+          <button id="run-terminal-btn" class="btn btn-glass" style="margin-top: 1.5rem; width: 100%; font-size: 0.75rem; padding: 0.6rem; letter-spacing: 1.5px; text-transform: uppercase; border-color: rgba(212,175,55,0.3); color: var(--primary); font-weight: 600;">
+            <i data-lucide="play" style="width: 12px; height: 12px; margin-right: 6px; display: inline-block; vertical-align: middle;"></i> Run System Render
+          </button>
+        </div>
+      </div>
+      <div class="glass-panel float-panel f1"></div>
+      <div class="glass-panel float-panel f2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST & RECOGNITION -->
+<section id="trust" class="section" style="background: rgba(10, 15, 29, 0.3);">
+  <div class="container">
+    <div class="sec-tag center" data-reveal>Verification & Credentials</div>
+    <h2 class="sec-h text-c" data-reveal>Fully Registered & <span class="text-grad">Verified</span></h2>
+    <div class="trust-grid mt-2" data-reveal>
+      <div class="trust-card trust-gold">
+        <div class="trust-icon"><img src="logo/udhayam.png" alt="Udhayam Logo" class="trust-img"></div>
+        <div class="trust-info">
+          <h4>Ministry of MSME Verification</h4>
+          <p>Government of India Registered Enterprise</p>
+          <div class="trust-details" style="margin-top: 0.8rem; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); border-top: 1px dashed rgba(255, 255, 255, 0.1); padding-top: 0.6rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+            <span><strong style="color: var(--primary);">Udyam Registration No:</strong> UDYAM-TN-27-0141973</span>
+          </div>
+        </div>
+        <div class="trust-badge">REGISTERED</div>
+      </div>
+
+
+      <div class="trust-card trust-gold">
+        <div class="trust-icon"><img src="logo/startup india.png" alt="Startup India Logo" class="trust-img"></div>
+        <div class="trust-info">
+          <h4>DPIIT Startup India Recognition</h4>
+          <p>Ministry of Commerce Certified Startup</p>
+          <div class="trust-details" style="margin-top: 0.8rem; font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted); border-top: 1px dashed rgba(255, 255, 255, 0.1); padding-top: 0.6rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+            <span><strong style="color: var(--primary);">Founder:</strong> Nithish N</span>
+            <span><strong style="color: var(--primary);">Certificate No:</strong> IN-0526-9455GJ</span>
+            <span><strong style="color: var(--primary);">Location:</strong> Tamil Nadu, India</span>
+          </div>
+        </div>
+        <div class="trust-badge">REGISTERED</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTIONS (SERVICES) SECTION -->
+<section id="solutions" class="section">
+  <div class="container">
+    <h2 class="sec-h text-c" data-reveal>Services & <span class="text-grad">Capabilities</span></h2>
+    <p class="sec-p text-c" style="max-width: 700px; margin: 0 auto 3rem;" data-reveal>Explore our services. Click any service to book an appointment or send an inquiry.</p>
+
+    <!-- Services Tiers Explanation -->
+    <div class="tier-explain-wrap" data-reveal style="margin-bottom: 5rem;">
+      <div class="tier-explain-grid">
+        
+        <!-- Standard Tier Card -->
+        <div class="tier-explain-card tier-standard">
+          <div class="tier-header">
+            <span class="tier-badge">Normal Tier</span>
+            <h3>Standard Services</h3>
+            <p>Affordable and professional solutions for students, startups, and growing businesses.</p>
+          </div>
+          <ul class="tier-checklist">
+            <li><i data-lucide="check" class="check-icon"></i> Quality work</li>
+            <li><i data-lucide="check" class="check-icon"></i> Modern design</li>
+            <li><i data-lucide="check" class="check-icon"></i> Reliable support</li>
+            <li><i data-lucide="check" class="check-icon"></i> Clean output</li>
+            <li><i data-lucide="check" class="check-icon"></i> Best for regular projects</li>
+            <li><i data-lucide="check" class="check-icon"></i> Budget-friendly</li>
+          </ul>
+        </div>
+
+        <!-- Premium Tier Card -->
+        <div class="tier-explain-card tier-premium-gold">
+          <div class="tier-glow"></div>
+          <div class="tier-header">
+            <span class="tier-badge">Premium Tier</span>
+            <h3>Premium Services</h3>
+            <p>Advanced solutions for businesses, brands, and professional projects.</p>
+          </div>
+          <ul class="tier-checklist">
+            <li><i data-lucide="check" class="check-icon"></i> Premium design and development</li>
+            <li><i data-lucide="check" class="check-icon"></i> Faster project delivery</li>
+            <li><i data-lucide="check" class="check-icon"></i> Custom features</li>
+            <li><i data-lucide="check" class="check-icon"></i> High-quality visuals</li>
+            <li><i data-lucide="check" class="check-icon"></i> Dedicated support</li>
+            <li><i data-lucide="check" class="check-icon"></i> Professional workflow</li>
+            <li><i data-lucide="check" class="check-icon"></i> Best for business growth</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Category Groups for Services -->
+    <!-- Category: Civil & BIM -->
+    <div class="category-group" data-category="civil" data-reveal>
+      <h3 class="category-group-title"><span class="text-grad">Civil & BIM</span> Services</h3>
+      <div class="services-grid normal-tier" style="margin-top: 1.5rem;">
+      
+      <!-- 01. Tekla Structures -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-purple"></div>
+        <div class="svc-icon-box">
+          <img src="logo/TEKLA LOGO.png" alt="Tekla" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>Tekla Structures</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Tekla%20Structures%20-%20Steel%20Detailing." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Steel detailing models
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Tekla%20Structures%20-%20Fabrication%20Drawings." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Fabrication drawings
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Tekla%20Structures%20-%20Connection%20Design." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Connection design
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzFvxZhTunP2Aa4RzfnfcDbFNfsvXTrbCuDZQnB42E-_Syvg/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Tekla Structures">Premium</button>
+        </div>
+      </div>
+
+      <!-- 02. AutoCAD Drafting -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box">
+          <img src="logo/AUTOCAD LOGO.webp" alt="AutoCAD" class="svc-logo-img" style="height: 38px; width: auto;">
+        </div>
+        <h3>AutoCAD Drafting</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AutoCAD%20Drafting%20-%202D%20Technical%20Drafting." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> 2D drafting
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AutoCAD%20Drafting%20-%20Architectural%20Floor%20Plans." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Floor plans
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AutoCAD%20Drafting%20-%20Elevations%20%26%20Detail%20Drawings." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Elevation and detail drawings
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSchPh6NMzWlvpbVmC4FBmI_DgdZ6EBQIcjyZqjLOLZUTEiDyg/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - AutoCAD Drafting">Premium</button>
+        </div>
+      </div>
+
+      <!-- 03. SketchUp & Rendering -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-gold"></div>
+        <div class="svc-icon-box">
+          <img src="logo/SKETCH UP LOGO.jpg" alt="SketchUp" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>SketchUp & Rendering</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SketchUp%20-%203D%20Architectural%20Modeling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> 3D architectural modeling
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SketchUp%20-%20Interior%20%26%20Exterior%20Renders." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Interior and exterior renders
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SketchUp%20-%20Lumion%20%26%20V-Ray." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Lumion & V-Ray visuals
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf89Y_eFjkRTXC7z_jwymOP-OFrISCJzb4p-aeFqOC0KcEkLg/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - SketchUp & Rendering">Premium</button>
+        </div>
+      </div>
+
+      <!-- 04. STAAD.Pro -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box">
+          <img src="logo/STAAD PRO LOGO.jpg" alt="STAAD" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>STAAD.Pro</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20STAAD.Pro%20-%20Structural%20Load%20Analysis." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Structural analysis
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20STAAD.Pro%20-%20Steel%20%26%20Concrete%20Design." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Steel and concrete design
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20STAAD.Pro%20-%20Foundation%20Modeling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Foundation design
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgbb1n5aFWqL9PbW6K12SNTVpPkrpTrT-lDdWV3lqelTm2-A/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - STAAD.Pro">Premium</button>
+        </div>
+      </div>
+
+      <!-- 05. ETABS -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-purple"></div>
+        <div class="svc-icon-box">
+          <img src="logo/etabs.png" alt="ETABS" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>ETABS</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20ETABS%20-%20Multistory%20Building%20Design." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Building design
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20ETABS%20-%20Seismic%20%26%20Wind%20Analysis." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Seismic and wind analysis
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20ETABS%20-%20Foundation%20Modeling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Foundation design
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgbb1n5aFWqL9PbW6K12SNTVpPkrpTrT-lDdWV3lqelTm2-A/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - ETABS">Premium</button>
+        </div>
+      </div>
+
+      <!-- 06. Revit Architecture (BIM) -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box">
+          <img src="logo/REVIT LOGO.webp" alt="Revit" class="svc-logo-img" style="height: 38px; width: auto;">
+        </div>
+        <h3>Revit Architecture</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Revit%20Architecture%20-%20BIM%20Modeling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> BIM modeling
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Revit%20Architecture%20-%20Revit%20Family%20Creation." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Family creation
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Revit%20Architecture%20-%20Clash%20Detection." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Clash detection
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSduKQtJx-UfM3vyzCaC2zH5lKlVtU-3ABto2jIpCBUZhk2MxQ/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Revit Architecture (BIM)">Premium</button>
+        </div>
+      </div>
+
+      <!-- 07. SAP2000 -->
+      <div class="svc-card" data-category="civil">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box">
+          <img src="logo/sap2000.png" alt="SAP2000" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>SAP2000</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SAP2000%20-%20Bridge%20%26%20Finite%20Element%20Modeling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Bridge modeling
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SAP2000%20-%20Linear%20%26%20Nonlinear%20Static%20Analysis." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Structural analysis
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20SAP2000%20-%20Complex%20Structural%20Design." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Complex design
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgbb1n5aFWqL9PbW6K12SNTVpPkrpTrT-lDdWV3lqelTm2-A/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - SAP2000">Premium</button>
+        </div>
+      </div>
+
+    </div> <!-- Close Civil & BIM Grid -->
+  </div> <!-- Close Civil & BIM Group -->
+
+    <!-- Category: Office & Documents -->
+    <div class="category-group" data-category="office" data-reveal>
+      <h3 class="category-group-title"><span class="text-grad">Office & Documents</span> Services</h3>
+      <div class="services-grid normal-tier office-grid" style="margin-top: 1.5rem;">
+
+      <!-- 06. Microsoft Word -->
+      <div class="svc-card" data-category="office">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box">
+          <img src="logo/word-c536.png" alt="Word" class="svc-logo-img" style="height: 38px; width: auto;">
+        </div>
+        <h3>Microsoft Word</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Word%20-%20Professional%20Document%20Formatting." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Document formatting
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Word%20-%20ATS-Friendly%20Resumes%20%26%20Portfolios." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> ATS-friendly resumes
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Word%20-%20Business%20Reports." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Business reports
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-MhiZxyBBlXs6I6gE-zlrgMl7ZEzX5BDp78py5SzRVsRgUg/viewform?pli=1" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Microsoft Word">Premium</button>
+        </div>
+      </div>
+
+      <!-- 08. Microsoft Excel -->
+      <div class="svc-card" data-category="office">
+        <div class="svc-glow glow-emerald" style="background: #107c41;"></div>
+        <div class="svc-icon-box">
+          <img src="logo/excel-logo-24ae.png" alt="Excel" class="svc-logo-img" style="height: 38px; width: auto;">
+        </div>
+        <h3>Microsoft Excel</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Excel%20-%20Smart%20Excel%20Dashboards." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Excel dashboards
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Excel%20-%20Advanced%20Formulas." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Advanced formulas
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Microsoft%20Excel%20-%20Spreadsheet%20Automation." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Spreadsheet automation
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeD5PcK-T-ey87jy42BD4E7MRlEWY_rbdt5SWniEzDjt6pi1A/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Microsoft Excel">Premium</button>
+        </div>
+      </div>
+
+      <!-- 09. PowerPoint & Typing -->
+      <div class="svc-card" data-category="office">
+        <div class="svc-glow glow-rose" style="background: #d24726;"></div>
+        <div class="svc-icon-box" style="color: #d24726;">
+          <i data-lucide="presentation"></i>
+        </div>
+        <h3>PowerPoint</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20PowerPoint%20%26%20Typing%20-%20Investor%20Pitch%20Decks." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Investor pitch decks
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20PowerPoint%20%26%20Typing%20-%20Presentation%20Design." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Presentation design
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20PowerPoint%20%26%20Typing%20-%20Tamil%20%26%20English%20Typing." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Tamil & English typing
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://forms.gle/ewusky76in9eE5rc7" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - PowerPoint & Typing">Premium</button>
+        </div>
+      </div>
+
+      <!-- 07. Resume & Portfolio Design -->
+      <div class="svc-card" data-category="office">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box" style="color: var(--primary);">
+          <i data-lucide="file-text"></i>
+        </div>
+        <h3>Resume & Portfolio Design</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Resume%20-%20ATS-Friendly%20Resume%20Formatting." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Professional resumes
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Resume%20-%20Professional%20Career%20Resumes." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Academic portfolios
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Resume%20-%20Academic%20%26%20Corporate%20Portfolios." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Corporate portfolios
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://forms.gle/NX2T8y5Xe7eCGnsF7" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Resume & Portfolio Design">Premium</button>
+        </div>
+      </div> <!-- Close Office & Documents Grid -->
+    </div> <!-- Close Office & Documents Group -->
+
+    <!-- Category: Creative & Media -->
+    <div class="category-group" data-category="creative" data-reveal>
+      <h3 class="category-group-title"><span class="text-grad">Creative & Media</span> Services</h3>
+      <div class="services-grid normal-tier" style="margin-top: 1.5rem;">
+
+      <!-- 01. Creativity -->
+      <div class="svc-card" data-category="creative">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box" style="color: var(--primary);">
+          <i data-lucide="sparkles"></i>
+        </div>
+        <h3>Creativity</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Creativity%20-%20Concept%20%26%20Ideation." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Concept planning
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Creativity%20-%20Art%20Direction." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Brand storytelling
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Creativity%20-%20Brand%20Storytelling." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Copywriting
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVbrMRp8LOi3_pOWWsNXnVcGEyRKoMdcgfHg8OoRmcyfmePw/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Creativity">Premium</button>
+        </div>
+      </div>
+
+      <!-- 02. Social Media Maintenance -->
+      <div class="svc-card" data-category="creative">
+        <div class="svc-glow glow-purple"></div>
+        <div class="svc-icon-box" style="color: var(--primary);">
+          <i data-lucide="share-2"></i>
+        </div>
+        <h3>Social Media page development</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Social%20Media%20Maintenance%20-%20Account%20Management." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Content planning
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Social%20Media%20Maintenance%20-%20Content%20Strategy." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Scheduling
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Social%20Media%20Maintenance%20-%20Audience%20Engagement." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Growth support
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVbrMRp8LOi3_pOWWsNXnVcGEyRKoMdcgfHg8OoRmcyfmePw/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Social Media Maintenance">Premium</button>
+        </div>
+      </div>
+
+      <!-- 03. Logo Design -->
+      <div class="svc-card" data-category="creative">
+        <div class="svc-glow glow-gold"></div>
+        <div class="svc-icon-box">
+          <img src="logo/logo.jpeg" alt="Logo Design" class="svc-logo-img" style="height: 38px; width: auto; border-radius: 4px;">
+        </div>
+        <h3>Logo Design</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Logo%20Design%20-%20Signature%20Logo." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Business logos
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Logo%20Design%20-%20Brand%20Identity." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Brand identity
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Logo%20Design%20-%20Minimalist%20Designs." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Vector files
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVbrMRp8LOi3_pOWWsNXnVcGEyRKoMdcgfHg8OoRmcyfmePw/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Logo Design">Premium</button>
+        </div>
+      </div>
+
+      <!-- 04. Poster Design -->
+      <div class="svc-card" data-category="creative">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box" style="color: var(--primary);">
+          <i data-lucide="image"></i>
+        </div>
+        <h3>Poster Design</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Poster%20Design%20-%20Event%20Posters." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Business posters
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Poster%20Design%20-%20Business%20Flyers." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Flyers and banners
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Poster%20Design%20-%20Social%20Media%20Graphics." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Social media posts
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVbrMRp8LOi3_pOWWsNXnVcGEyRKoMdcgfHg8OoRmcyfmePw/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Poster Design">Premium</button>
+        </div>
+      </div>
+
+      <!-- 05. Reel Editing for CapCut -->
+      <div class="svc-card" data-category="creative">
+        <div class="svc-glow glow-rose" style="background: #e91e63;"></div>
+        <div class="svc-icon-box">
+          <img src="logo/CAPCUT LOGO.webp" alt="CapCut" class="svc-logo-img" style="height: 38px; width: auto;">
+        </div>
+        <h3>CapCut Video Editing</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Cinematic%20CapCut%20Reel%20Editing%20-%20Cinematic%20Reels." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Reels editing
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Cinematic%20CapCut%20Reel%20Editing%20-%20Transitions." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Smooth transitions
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Cinematic%20CapCut%20Reel%20Editing%20-%20Transitions." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Sound sync
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Cinematic%20CapCut%20Reel%20Editing%20-%20Color%20Grading." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Color editing
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0S4hx8x-IXCRDKuxx0jexTMHRtE51dDmgQN5IlK7pBxfZvQ/viewform" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Reel Editing for CapCut (Cinematic)">Premium</button>
+        </div>
+      </div> <!-- Close Creative & Media Grid -->
+    </div> <!-- Close Creative & Media Group -->
+
+    <!-- Category: Software & AI -->
+    <div class="category-group" data-category="software" data-reveal>
+      <h3 class="category-group-title"><span class="text-grad">Software & AI</span> Services</h3>
+      <div class="services-grid normal-tier" style="margin-top: 1.5rem;">
+
+      <!-- 02. App Development -->
+      <div class="svc-card" data-category="software">
+        <div class="svc-glow glow-gold"></div>
+        <div class="svc-icon-box" style="color: var(--secondary);">
+          <i data-lucide="smartphone"></i>
+        </div>
+        <h3>App Development</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20App%20Development%20-%20Android%20Apps." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Android apps
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20App%20Development%20-%20iOS%20Apps." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> iOS apps
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20App%20Development%20-%20Cross-Platform." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Cross-platform apps
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://forms.gle/rLibVD8f434SAkzXA" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - App Development">Premium</button>
+        </div>
+      </div>
+
+      <!-- 01. Web Development -->
+      <div class="svc-card" data-category="software">
+        <div class="svc-glow glow-blue"></div>
+        <div class="svc-icon-box" style="color: var(--secondary);">
+          <i data-lucide="globe"></i>
+        </div>
+        <h3>Web Development</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Web%20Development%20-%20Portfolio%20Website." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Portfolio websites
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Web%20Development%20-%20Blog%20Website." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Blog websites
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Web%20Development%20-%20E-Commerce%20Website." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> E-commerce stores
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20Web%20Development%20-%20Business%20Website." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Business websites
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://forms.gle/rLibVD8f434SAkzXA" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - Web Development">Premium</button>
+        </div>
+      </div>
+
+      <!-- 03. AI Automations -->
+      <div class="svc-card" data-category="software">
+        <div class="svc-glow glow-rose"></div>
+        <div class="svc-icon-box" style="color: var(--primary);"><i data-lucide="cpu"></i></div>
+        <h3>AI Automation</h3>
+        <ul class="svc-features">
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AI%20Automations%20-%20OpenAI%20%26%20Gemini." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> OpenAI & Gemini integrations
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AI%20Automations%20-%20Workflow%20Bots." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> Automation bots
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/917904509269?text=Hello%20NGS%20Soft%20Works%2C%20I%20want%20to%20book%20an%20appointment%20for%20AI%20Automations%20-%20AI%20Data%20Processing." target="_blank">
+              <i data-lucide="sparkle" class="feat-icon" style="color: var(--primary) !important;"></i> AI data systems
+            </a>
+          </li>
+        </ul>
+        <div class="svc-btns">
+          <a href="https://forms.gle/rLibVD8f434SAkzXA" target="_blank" class="btn btn-glass btn-normal">Normal</a>
+          <button type="button" class="btn btn-glass btn-premium booking-modal-trigger" data-service="Premium - AI Automations">Premium</button>
+        </div>
+      </div> <!-- Close Software & AI Grid -->
+    </div> <!-- Close Software & AI Group -->
+  </div>
+</section>
+
+
+<!-- EMPLOYEE PORTFOLIO / TEAM -->
+<section id="team" class="section">
+  <div class="container">
+    <div class="sec-tag center" data-reveal>OUR CORE LEADS</div>
+    <h2 class="sec-h text-c" data-reveal>Our <span class="text-grad">Portfolio</span></h2>
+    <p class="sec-p text-c" style="max-width: 700px; margin: 0 auto 3rem;" data-reveal>From code to concrete — we build the future through technology, engineering, and innovation.</p>
+    
+    <div class="port-grid mt-2">
+      <!-- Lead 1: Civil Engineering & BIM -->
+      <div class="port-card employee-card" data-reveal>
+        <div class="port-img" style="position: relative;">
+          <img src="profile/image copy.png" alt="Civil Team" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="logo/logo.jpeg" alt="NGS Logo" style="position: absolute; top: 10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--primary); box-shadow: 0 0 10px rgba(212,175,55,0.5);">
+        </div>
+        <div class="port-info" style="padding: 2.2rem 2rem; display: flex; flex-direction: column; flex: 1; text-align: left; align-items: flex-start;">
+          <div class="port-cat" style="text-align: left; margin-bottom: 0.6rem; font-size: 0.7rem; letter-spacing: 2px;">CIVIL & OFFICE SOLUTIONS LEAD</div>
+          <h4 style="font-size: 1.3rem; font-family: var(--font-heading); color: #fff; margin-bottom: 0.8rem; text-align: left; min-height: 3.4rem;">BIM, structural, and document systems specialist.</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; min-height: 7.2rem; text-align: left; margin: 0;">Modern architectural planning, BIM workflows, document styling, data handling, and presentation design.</p>
+          
+          <div class="skills-wrap">
+            <span class="skill-tag">AutoCAD</span>
+            <span class="skill-tag">Revit BIM</span>
+            <span class="skill-tag">Structural Design</span>
+            <span class="skill-tag">MS Office Suites</span>
+            <span class="skill-tag">Data Formatting</span>
+            <span class="skill-tag">Presentation Design</span>
+            <span class="skill-tag">Logo Design</span>
+            <span class="skill-tag">Video Editing</span>
+          </div>
+          
+          <a href="https://nithish-portflio.netlify.app" target="_blank" class="btn btn-glass mt-auto" style="font-size: 0.8rem; padding: 0.8rem 1.5rem; display: flex; align-items: center; justify-content: center; width: 100%; text-transform: uppercase; letter-spacing: 2px; font-weight: 600;">Explore Work</a>
+        </div>
+      </div>
+
+      <!-- Lead 2: Software & Technology -->
+      <div class="port-card employee-card" data-reveal>
+        <div class="port-img" style="position: relative;">
+          <img src="profile/image.png" alt="Software Team" style="width: 100%; height: 100%; object-fit: cover;">
+          <img src="logo/logo.jpeg" alt="NGS Logo" style="position: absolute; top: 10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--primary); box-shadow: 0 0 10px rgba(212,175,55,0.5);">
+        </div>
+        <div class="port-info" style="padding: 2.2rem 2rem; display: flex; flex-direction: column; flex: 1; text-align: left; align-items: flex-start;">
+          <div class="port-cat" style="text-align: left; margin-bottom: 0.6rem; font-size: 0.7rem; letter-spacing: 2px;">SOFTWARE, AUTOMATION & CREATIVE LEAD</div>
+          <h4 style="font-size: 1.3rem; font-family: var(--font-heading); color: #fff; margin-bottom: 0.8rem; text-align: left; min-height: 3.4rem;">Full-stack developer and creative systems designer.</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; min-height: 7.2rem; text-align: left; margin: 0;">Building websites, mobile apps, automation tools, VLSI designs, branding, posters, and videos.</p>
+          
+          <div class="skills-wrap">
+            <span class="skill-tag">Web Development</span>
+            <span class="skill-tag">App Development</span>
+            <span class="skill-tag">Automation</span>
+            <span class="skill-tag">VLSI Design</span>
+            <span class="skill-tag">Logo Design</span>
+            <span class="skill-tag">Poster Design</span>
+            <span class="skill-tag">Video Editing</span>
+            <span class="skill-tag">MS Office Works</span>
+          </div>
+          
+          <a href="https://kavins-portflio.netlify.app" target="_blank" class="btn btn-glass mt-auto" style="font-size: 0.8rem; padding: 0.8rem 1.5rem; display: flex; align-items: center; justify-content: center; width: 100%; text-transform: uppercase; letter-spacing: 2px; font-weight: 600;">Explore Work</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK PROCESS -->
+<section id="work-process" class="section sec-dark border-t" style="background: rgba(10, 15, 29, 0.6);">
+  <div class="container">
+    <div class="sec-tag center" data-reveal>Work Process</div>
+    <h2 class="sec-h text-c" data-reveal>How We Turn Ideas Into <span class="text-grad">Real Solutions</span></h2>
+    <p class="sec-p text-c" style="max-width: 750px; margin: 0 auto 4rem;" data-reveal>We follow a clean and professional workflow to ensure every project is planned, designed, and delivered with quality, precision, and modern standards.</p>
+    
+    <div class="process-grid">
+      <!-- 01. Requirement Discussion -->
+      <div class="svc-card premium-card" data-reveal style="min-height: 280px; display: flex; flex-direction: column;">
+        <div class="svc-glow glow-gold"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; width: 100%;">
+          <div class="svc-icon-box" style="color: var(--primary); margin: 0;"><i data-lucide="message-square"></i></div>
+          <span style="font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700; color: rgba(212, 175, 55, 0.35);">01</span>
+        </div>
+        <h3 style="font-size: 1.25rem; color: #fff; font-family: var(--font-heading); margin-bottom: 1rem; font-weight: 600; text-align: left;">Requirement Discussion</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: left; margin: 0;">Understanding client ideas, project goals, and technical requirements before starting the workflow.</p>
+      </div>
+
+      <!-- 02. Planning & Research -->
+      <div class="svc-card premium-card" data-reveal style="min-height: 280px; display: flex; flex-direction: column;">
+        <div class="svc-glow glow-blue"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; width: 100%;">
+          <div class="svc-icon-box" style="color: var(--secondary); margin: 0;"><i data-lucide="compass"></i></div>
+          <span style="font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700; color: rgba(0, 229, 255, 0.35);">02</span>
+        </div>
+        <h3 style="font-size: 1.25rem; color: #fff; font-family: var(--font-heading); margin-bottom: 1rem; font-weight: 600; text-align: left;">Planning & Research</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: left; margin: 0;">Creating structured workflows, design strategies, and selecting the right tools and technologies for the project.</p>
+      </div>
+
+      <!-- 03. Design & Development -->
+      <div class="svc-card premium-card" data-reveal style="min-height: 280px; display: flex; flex-direction: column;">
+        <div class="svc-glow glow-gold"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; width: 100%;">
+          <div class="svc-icon-box" style="color: var(--primary); margin: 0;"><i data-lucide="layers"></i></div>
+          <span style="font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700; color: rgba(212, 175, 55, 0.35);">03</span>
+        </div>
+        <h3 style="font-size: 1.25rem; color: #fff; font-family: var(--font-heading); margin-bottom: 1rem; font-weight: 600; text-align: left;">Design & Development</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: left; margin: 0;">Developing software systems, BIM models, drafting layouts, branding assets, or digital solutions with modern industry standards.</p>
+      </div>
+
+      <!-- 04. Testing & Optimization -->
+      <div class="svc-card premium-card" data-reveal style="min-height: 280px; display: flex; flex-direction: column;">
+        <div class="svc-glow glow-blue"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; width: 100%;">
+          <div class="svc-icon-box" style="color: var(--secondary); margin: 0;"><i data-lucide="activity"></i></div>
+          <span style="font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700; color: rgba(0, 229, 255, 0.35);">04</span>
+        </div>
+        <h3 style="font-size: 1.25rem; color: #fff; font-family: var(--font-heading); margin-bottom: 1rem; font-weight: 600; text-align: left;">Testing & Optimization</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: left; margin: 0;">Checking performance, fixing issues, improving accuracy, and optimizing the final output for reliability and quality.</p>
+      </div>
+
+      <!-- 05. Final Delivery -->
+      <div class="svc-card premium-card" data-reveal style="min-height: 280px; display: flex; flex-direction: column;">
+        <div class="svc-glow glow-gold"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; width: 100%;">
+          <div class="svc-icon-box" style="color: var(--primary); margin: 0;"><i data-lucide="shield-check"></i></div>
+          <span style="font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700; color: rgba(212, 175, 55, 0.35);">05</span>
+        </div>
+        <h3 style="font-size: 1.25rem; color: #fff; font-family: var(--font-heading); margin-bottom: 1rem; font-weight: 600; text-align: left;">Final Delivery</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: left; margin: 0;">Delivering the completed project with professional support, clean presentation, and client satisfaction.</p>
+      </div>
+    </div>
+
+    <!-- Process Pillars (Values) -->
+    <div style="display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap; margin-top: 4.5rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 3rem;">
+      <div style="display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; color: #fff; letter-spacing: 1px; text-transform: uppercase;">
+        <i data-lucide="check-circle" style="color: var(--primary); width: 18px; height: 18px;"></i> Professional Workflow
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; color: #fff; letter-spacing: 1px; text-transform: uppercase;">
+        <i data-lucide="message-square" style="color: var(--secondary); width: 18px; height: 18px;"></i> Reliable Communication
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; color: #fff; letter-spacing: 1px; text-transform: uppercase;">
+        <i data-lucide="cpu" style="color: var(--primary); width: 18px; height: 18px;"></i> Modern Technology
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem; color: #fff; letter-spacing: 1px; text-transform: uppercase;">
+        <i data-lucide="shield" style="color: var(--secondary); width: 18px; height: 18px;"></i> Quality Delivery
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NGS VALUES SECTION -->
+<section id="values" class="section border-t" style="background: rgba(10, 15, 29, 0.45);">
+  <div class="container">
+    <div class="sec-tag center" data-reveal>Core Foundation</div>
+    <h2 class="sec-h text-c" data-reveal>NGS <span class="text-grad">Values</span></h2>
+    <p class="sec-p text-c" style="max-width: 750px; margin: 0 auto 4rem;" data-reveal>Our values define how we work, create, and deliver modern digital and engineering solutions with quality, trust, and professionalism.</p>
+    
+    <div class="values-grid" data-reveal>
+      <!-- 01. Professional Service -->
+      <div class="val-card">
+        <div class="val-glow glow-gold"></div>
+        <div class="val-icon-box">
+          <i data-lucide="award" class="val-icon"></i>
+        </div>
+        <h3>Professional Service</h3>
+        <p>Delivering reliable and high-quality solutions with professional standards.</p>
+      </div>
+
+      <!-- 02. Client Support -->
+      <div class="val-card">
+        <div class="val-glow glow-silver"></div>
+        <div class="val-icon-box">
+          <i data-lucide="heart-handshake" class="val-icon"></i>
+        </div>
+        <h3>Client Support</h3>
+        <p>Understanding client needs and providing clear communication throughout every project.</p>
+      </div>
+
+      <!-- 03. Trust & Reliability -->
+      <div class="val-card">
+        <div class="val-glow glow-gold"></div>
+        <div class="val-icon-box">
+          <i data-lucide="shield-check" class="val-icon"></i>
+        </div>
+        <h3>Trust & Reliability</h3>
+        <p>Building long-term relationships through honest work and consistent project delivery.</p>
+      </div>
+
+      <!-- 04. Creative Thinking -->
+      <div class="val-card">
+        <div class="val-glow glow-silver"></div>
+        <div class="val-icon-box">
+          <i data-lucide="brain-circuit" class="val-icon"></i>
+        </div>
+        <h3>Creative Thinking</h3>
+        <p>Combining technology, engineering, and creativity to develop modern solutions.</p>
+      </div>
+
+      <!-- 05. Innovation -->
+      <div class="val-card">
+        <div class="val-glow glow-gold"></div>
+        <div class="val-icon-box">
+          <i data-lucide="cpu" class="val-icon"></i>
+        </div>
+        <h3>Innovation</h3>
+        <p>Continuously improving with modern tools, smart workflows, and new technologies.</p>
+      </div>
+
+      <!-- 06. Learning & Growth -->
+      <div class="val-card">
+        <div class="val-glow glow-silver"></div>
+        <div class="val-icon-box">
+          <i data-lucide="trending-up" class="val-icon"></i>
+        </div>
+        <h3>Learning & Growth</h3>
+        <p>Growing through experience, creativity, and continuous skill development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FINAL CTA -->
+<section class="section border-t" style="background: rgba(6, 10, 20, 0.4); padding: 6rem 0;">
+  <div class="container" style="text-align: center;" data-reveal>
+    <div class="sec-tag center" style="margin-bottom: 1.5rem;">COLLABORATIVE ENGAGEMENT</div>
+    <h2 class="sec-h text-c" style="font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 800; line-height: 1.1; margin-bottom: 2.2rem;">Let’s Build The <span class="text-grad">Future Together</span></h2>
+    <p class="sec-p" style="max-width: 650px; margin: 0 auto 3rem; font-size: 1.15rem; color: var(--text-muted);">Build strong engineering solutions, smart software, and creative branding with us.</p>
+    <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+      <a href="https://wa.me/917904509269" target="_blank" class="btn btn-primary" style="padding: 1.2rem 3.5rem; border-radius: 8px;">Start Your Project</a>
+      <a href="mailto:ngssoftworks@gmail.com" class="btn btn-glass" style="padding: 1.2rem 3.5rem; border-radius: 8px;">Contact by Email</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer border-t" style="background: #030303; padding: 5rem 0 2rem 0;">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="f-brand">
+        <img src="logo/logo.jpeg" alt="NGS Soft Works Logo" class="brand-img-logo" style="margin-bottom: 1.5rem; height: 60px; width: auto; max-width: none;" onerror="this.style.display='none'">
+        <p style="font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">Building software, structural designs, and business branding with innovation and quality.</p>
+      </div>
+      <div class="f-links">
+        <h4>Solutions</h4>
+        <a href="#solutions">BIM & CAD</a>
+        <a href="#solutions">Office & Documents</a>
+        <a href="#solutions">Creative Branding</a>
+        <a href="#solutions">Software Development</a>
+      </div>
+      <div class="f-links">
+        <h4>Startup</h4>
+        <a href="#about">About NGS</a>
+        <a href="#work-process">Work Process</a>
+        <a href="#team">Lead Team</a>
+        <a href="https://wa.me/917904509269" target="_blank">Consult Chat</a>
+      </div>
+      <div class="f-links">
+        <h4>Corporate Direct</h4>
+        <a href="mailto:ngssoftworks@gmail.com">Email: ngssoftworks@gmail.com</a>
+        <a href="tel:+917904509269">Phone: +91 7904509269</a>
+        <a href="tel:+919342784114">Phone: +91 9342784114</a>
+      </div>
+    </div>
+    <div class="footer-bottom" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <p style="font-size: 0.85rem; color: #52525b;">&copy; 2026 NGS Soft Works. All rights reserved.</p>
+      <p style="font-size: 0.85rem; color: var(--primary); font-family: var(--font-mono); letter-spacing: 1px;">Crafted with innovation and engineering.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- PREMIUM APPOINTMENT BOOKING MODAL -->
+  <div id="bookingModal" class="booking-modal-overlay">
+    <div class="booking-modal-content">
+      <button id="closeBookingModal" class="booking-modal-close" aria-label="Close modal">&times;</button>
+      <div class="booking-modal-header">
+        <h3 id="bookingModalTitle">Book an Appointment</h3>
+        <p id="bookingModalSubtitle">Tell us about your project and our team will contact you soon.</p>
+      </div>
+      <form id="bookingModalForm" class="booking-modal-form">
+        <!-- Hidden field for service name -->
+        <input type="hidden" id="bookingServiceInput" name="service" value="">
+        
+        <div class="form-group">
+          <label for="bookingName">Your Name</label>
+          <div class="input-wrapper">
+            <i data-lucide="user" class="input-icon"></i>
+            <input type="text" id="bookingName" name="name" placeholder="John Doe" required>
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookingEmail">Email Address</label>
+            <div class="input-wrapper">
+              <i data-lucide="mail" class="input-icon"></i>
+              <input type="email" id="bookingEmail" name="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="bookingPhone">Phone Number</label>
+            <div class="input-wrapper">
+              <i data-lucide="phone" class="input-icon"></i>
+              <input type="tel" id="bookingPhone" name="phone" placeholder="+91 98765 43210" required>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="bookingRequirements">Project Details</label>
+          <div class="input-wrapper">
+            <i data-lucide="message-square" class="input-icon textarea-icon"></i>
+            <textarea id="bookingRequirements" name="requirements" placeholder="Tell us about your project, deadline, and budget." rows="4" required></textarea>
+          </div>
+        </div>
+        
+        <button type="submit" id="bookingSubmitBtn" class="btn btn-primary w-full">
+          <span>Submit Booking Request</span>
+          <i data-lucide="arrow-right" class="btn-arrow"></i>
+        </button>
+      </form>
+      
+      <!-- Success State (hidden by default) -->
+      <div id="bookingSuccessState" class="booking-success-state" style="display: none;">
+        <div class="success-icon-box">
+          <i data-lucide="check-circle" class="success-icon"></i>
+        </div>
+        <h3>Booking Request Sent!</h3>
+        <p>Thank you for choosing NGS Soft Works. We have received your request and will reach out to you within the next 24 hours.</p>
+        
+        <!-- Optional WhatsApp Follow-up -->
+        <div class="whatsapp-followup">
+          <p>Want a faster response? Connect with us on WhatsApp instantly with your request details:</p>
+          <a id="bookingSuccessWhatsAppBtn" href="#" target="_blank" class="btn btn-glass">
+            <i data-lucide="message-circle" class="whatsapp-btn-icon"></i>
+            <span>Send via WhatsApp</span>
+          </a>
+        </div>
+        
+        <button id="bookingSuccessCloseBtn" class="btn btn-primary" style="margin-top: 1.5rem; width: 100%;">Close Panel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
